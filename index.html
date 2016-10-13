@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>记录生活</title>
+    <!--<在head中引入css样式文件>-->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="app.css" rel="stylesheet">
+</head>
+<body >
+<!--这是首页头部信息-->
+        <div class="main-header" style="background-image: url(//image.golaravel.com/5/c9/44e1c4e50d55159c65da6a41bc07e.jpg)">
+            <div class="col-sm-16">
+                <h1>记录 • 思 考 • 生 活 </h1>
+            </div>
+        </div>
+
+<!--下面创建导航-->
+        <nav class="main-navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="collapse navbar-collapse" id="main-menu">
+                            <ul class="menu">
+                                <li class="nav-current" role="presentation"><a href="/">首页</a></li>
+                                <li role="presentation"><a href="" title="文章，分享高质量的见解" target="_blank">文章</a></li>
+                                <li role="presentation"><a href="" title="向大牛提出你的问题" target="_blank">问答</a></li>
+                                <li role="presentation"><a href="" title="面向对象思想的代码集合" target="_blank">代码</a></li>
+                                <li role="presentation"><a href="" title="我的问答社区" target="_blank">发现</a></li>
+                                <li role="presentation"><a href="" title="我的消息" target="_blank">消息</a></li>
+                                <li role="presentation"><a href="" title="生活琐碎专题" target="_blank">生活</a></li>
+                                <li role="presentation"><a href="" title="About" target="_blank">关于</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </nav>
+
+<!--下面写主题内容-->
+
+    <section class="content-wrap">
+        <div class="container">
+            <div class="row">
+                <main class="col-md-8 main-content">
+                    <article class="post tag-about-ghost tag-ghost-in-depth tag-zhu-shou">
+                        <!-- 这里面分成四个部分-->
+                        <!-- 第一部分，标题和作者-->
+                        <div class="post-head">
+                            <h1 class="post-title">
+                                <a href="#">JAVA正式发布</a>
+
+                            </h1>
+
+                            <div class="post-meta">
+                                <span class="author">作者：
+                                <a href="#">海明威</a>
+                                </span>
+                                •
+                                <time class="date" datetime="2015-10-10"> 2015年10月10日</time>
+
+                            </div>
+
+                        </div>
+
+                        <!--第2部分:内容信息-->
+                        <div class="post-content">
+                            <p>
+                                Spring官方网站本身使用Spring框架开发，随着功能以及业务逻辑的日益复杂，应用伴随着大量的XML配置文件以及复杂的Bean依赖关系。随着Spring 3.0的发布，Spring IO团队逐渐开始摆脱XML配置文件，并且在开发过程中大量使用“约定优先配置”（convention over configuration）的思想来摆脱Spring框架中各类繁复纷杂的配置（即时是Java Config）。
+
+                                Spring Boot正是在这样的一个背景下被抽象出来的开发框架，它本身并不提供Spring框架的核心特性以及扩展功能，只是用于快速、敏捷地开发新一代基于Spring框架的应用程序。也就是说，它并不是用来替代Spring的解决方案，而是和Spring框架紧密结合用于提升Spring开发者体验的工具。同时它集成了大量常用的第三方库配置（例如Jackson, JDBC, Mongo, Redis, Mail等等），Spring Boot应用中这些第三方库几乎可以零配置的开箱即用（out-of-the-box），大部分的Spring Boot应用都只需要非常少量的配置代码，开发者能够更加专注于业务逻辑。
+                            </p>
+                        </div>
+
+                        <!--第3部分:按钮-->
+
+                        <div class="post-permalink">
+                            <a href="#" class="btn btn-default">阅读全文</a>
+
+                        </div>
+
+                        <hr>
+                        <!--第4部分:标签-->
+                        <div class="post-footer">
+
+                            <div class="pull-left tag-list">
+                                <i class="fa fa-folder-open-o">
+                                    <a href="#" >ghost</a>
+                                    <a href="#" >深度婉转</a>
+                                    <a href="#" >函数之后</a>
+                                </i>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                    <div class="pager13 pagination">
+                        <nav>
+                            <ul class="pagination" >
+                                <li><a href="#">&laquo;</a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">&raquo;</a></li>
+                            </ul>
+                        </nav>
+
+
+                    </div>
+
+
+                </main>
+
+                <!-- 下面写边栏-->
+
+                <aside class="col-md-4 sidebar">
+                    <div class="widget">
+                        <h4 class="title">
+                        社区
+                        </h4>
+                        <div class="content community">
+                            <p>QQ群： 123456789</p>
+                        <p>
+                        <a href="#" >问答社区</a>
+                        </p>
+                        <p>
+                            <a href="#" >官网微博</a>
+                        </p>
+                            </div>
+                    </div>
+                    <div class="widget">
+                        <h4 class="title">下载JAVA</h4>
+                        <div class="content download">
+                            <a href="#" class="btn btn-default btn-block">
+
+                                JAVA中文版1.8
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="widget">
+                            <h4 class="title">标签云</h4>
+                            <div class="content tag-cloud">
+                               <a href="#" >JAVA</a>
+                                <a href="#" >js</a>
+                                <a href="#" >c++</a>
+                                <a href="#" >java</a>
+                                <a href="#" >浙江</a>
+                                <a href="#" >杭州</a>
+                            </div>
+                        </div>
+                </div>
+                </aside>
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+</body>
+</html>
